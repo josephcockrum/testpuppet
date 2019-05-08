@@ -6,3 +6,6 @@ node default {
 	  owner => 'root',
       }
 }
+node 'puppettestserver.lsst.local' {
+	include role::master_server
+}
