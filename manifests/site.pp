@@ -11,6 +11,6 @@ node 'puppettestserver.lsst.local' {
 	include role::master_server
 }
 
-node /*client/ {
+node /client$/ {
 	include role::app_server
 }
