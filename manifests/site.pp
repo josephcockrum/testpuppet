@@ -8,7 +8,7 @@ node default {
 }
 
 node 'puppettestserver.lsst.local' {
-	include role::master_server
+	include role::master
 }
 
 node /client$/ {
