@@ -1,3 +1,3 @@
-node puppettestserver { 
+node puppettestserver.lsst.local { 
 	include role::master
 }
